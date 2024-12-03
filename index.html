@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic HTML Website</title>
-</head>
-<body>
+  </head>
+  <body style="width: 90%; margin: auto">
+    <section
+      id="nav-bar"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      ">
+      <div style="display: flex; align-items: center" class="left-side-navbar">
+        <div>
+          <img
+            style="width: 60px"
+            src="./images/profile-image.jpg"
+            alt="profile-image"
+            srcset="" />
+        </div>
+        <div>Your Name</div>
+      </div>
+      <div class="right-side-navbar">
+        <a
+          style="text-decoration: none; color: black; padding-right: 10px"
+          href="#home"
+          >Home |</a
+        >
+        <a
+          style="text-decoration: none; color: black; padding-right: 10px"
+          href="#projects"
+          >Projects |</a
+        >
+        <a
+          style="text-decoration: none; color: black; padding-right: 10px"
+          href="#articles"
+          >Articles |</a
+        >
+        <a
+          style="text-decoration: none; color: black; padding-right: 10px"
+          href="#contact"
+          >Contact</a
+        >
+      </div>
+    </section>
+    <section id="hero-section" style="border: 2px solid red; border-radius: 10px;">
+        <div style="height: 350px; text-align: center;">
+            <h1 style="font-size: 60px; line-height: 10px;">Frontend Developer</h1>
+            <p style="color: gray;">html only with proper layout, no styling</p>
+        </div>
+    </section>
     
-</body>
+  </body>
 </html>
